@@ -1,0 +1,296 @@
+#background {
+  background: url("img/sky.jpg");
+  padding: 70px;
+}
+
+body {
+  background-color: white;
+  padding:13px 20px;
+  width:600px;
+  margin:auto;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#name-sect {
+  font-size:150%;
+}
+
+#nameInOne, #nameInTwo {
+  font-size: 100%;
+  width:100px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+  border-width: 3px;
+}
+
+img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding:30px;
+}
+
+#leftChoice {
+  /* border: 2px solid red; */
+  display:inline-block;
+  margin-left: 100px;
+  font-size:30px;
+ 
+}
+
+#leftChoiceName {
+  display:inline-block;
+  /* border:2px solid red; */
+  position:relative;
+  left:90px;
+  width:250px;
+  font-size:30px;
+}
+
+#rightChoice {
+  /* border: 2px solid red; */
+  display:inline-block;
+  margin-left:370px;
+  font-size: 30px;
+}
+
+#rightChoiceName {
+  display:inline-block;
+  /* border:2px solid red; */
+  position:relative;
+  left:200px;
+  font-size:30px;
+}
+
+#bigRightChoiceName {
+  display:inline-block;
+  /* border:2px solid red; */
+  position:relative;
+  left:200px;
+  font-size:22px;
+  width:200px;
+  vertical-align:top;
+}
+
+#bigLeftChoiceName{
+  display:inline-block;
+  /* border:2px solid red; */
+  width:200px;
+  font-size:22px;
+  vertical-align:top;
+}
+
+#continue {
+  background-color:red;
+  font-size:200%;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border:solid white 2px;
+  color:white;
+  outline:none;
+  position: relative;
+  left:740px;
+  top: 40px;
+}
+
+#continue:hover {
+  background-color:white;
+  color:black;
+  border-color:black;
+}
+
+#colorbuttons {
+  text-align:center;
+}
+
+.sky {
+  width: 70px;
+  font-size:18px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  cursor:pointer;
+  color:white;
+  border:2px solid white;
+  outline:none;
+}
+
+.sky:hover {
+  opacity:0.6;
+}
+
+/* Background colors for buttons */
+#green {
+  background-color:green;
+}
+
+#red {
+  background-color:red;
+}
+
+#pink {
+  background-color:palevioletred;
+}
+
+#purple {
+  background-color:purple;
+}
+
+.scene{
+  display:none;
+  padding:0;
+  margin:0;
+}
+
+.end{
+  width:40%;
+}
+
+.bigImg {
+  width: 70%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding:30px;
+}
+
+#yellowFlower {
+  display: inline; 
+  background:yellow; 
+  outline:none;
+  border:2px solid black; 
+  color: black;  
+  font-size: 25px; 
+  font-family: papyrus;
+  cursor:pointer;
+}
+
+#whiteFlower {
+  display: inline; 
+  background:bisque; 
+  outline:none;
+  border:2px solid black; 
+  color: black;  
+  font-size: 25px; 
+  font-family: papyrus;
+  cursor:pointer;
+}
+
+.flower:hover{
+  opacity:0.6;
+}
+
+#flowers {
+  text-align:center;
+}
+
+.collectedflower {
+  position:absolute;
+  right:950px;
+  bottom:100px;
+  display:none;
+}
+
+#benjiBtn {
+  border:none;
+  background:none; 
+  width:25px;
+  height:30px;
+  position:relative;
+  bottom: 275px;
+  left:170px;
+  outline:none;
+  cursor:pointer;
+}
+
+#final{
+  display: none; 
+}
+
+#beginCountdownBtn {
+  border:2px solid black;
+  background:greenyellow; 
+  color:black;
+  font-size: 23px;
+  outline:none;
+  width:100px;
+  height:30px;
+  position:relative;
+  cursor:pointer;
+}
+
+#beginCountdownBtn:hover {
+  opacity:0.6;
+}
+
+progress {
+  width:75%;
+}
+
+#dogMessage {
+  font-weight: bold;
+}
+
+#outcomeSection,#outcomeList {
+  display:none;
+}
+
+#outcomeSection {
+  text-align: center;
+}
+
+#viewOutcomesBtn,#playAgainBtn {
+  font-size:25px;
+  cursor:pointer;
+  outline:none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#viewOutcomesBtn {
+  background-color:darkorchid;
+  color:white;
+  border:none;
+}
+
+#playAgainBtn {
+  background-color: crimson;
+  color: white;
+  border:none;
+}
+
+#viewOutcomesBtn:hover, #playAgainBtn:hover {
+  opacity:0.5;
+}
+
+#outcomeList {
+  font-size:20px;
+  background-color:rgb(189, 180, 180); 
+  position: absolute;
+  bottom:400px;
+  height:300px;
+  width:400px;
+  z-index:2;
+}
+
+#close {
+  outline:none;
+  border:none;
+  background:none;
+  cursor:pointer;
+  width:60px;
+  height:60px;
+  position:relative;
+  left:340px;
+}
+
+#ex {
+  position: relative;
+  right:20px;
+  bottom:20px;
+  width:40px;
+}
+
+#nameIn1, #nameIn2 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
